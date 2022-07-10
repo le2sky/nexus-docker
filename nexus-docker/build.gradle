@@ -16,8 +16,8 @@ dependencies {
 repositories {
 //  mavenCentral()
     maven {
-        url "http://172.31.53.94:8081/repository/test-docker-nexus-repository1"
-        allowInsecureProtocol true
+        url "http://3.36.46.246:8081/repository/test-docker-nexus-repository1/"
+        allowInsecureProtocol true //https 설정 권장
     }
 
 }
